@@ -118,10 +118,10 @@ $(document).ready(function(){
 
     // store user input to the local storage or update input once user click the button
     $(".saveBtn").click(function(){
-        var userInput = $(this).prev().val();
-        console.log(userInput);
         var userInputId  = $(this).prev().attr("id");
         console.log(userInputId);
+        var userInput = $(this).prev().val();
+        console.log(userInput);
         localStorage.setItem(userInputId, userInput)
         // the part below is in process
         var inputUnit = {
