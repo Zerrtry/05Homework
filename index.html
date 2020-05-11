@@ -14,9 +14,9 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    <link 
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
     />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
@@ -31,185 +31,124 @@
 
     <div class="container">
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             9AM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="9amTask">
         </textarea>
-        <button class="col-sm-1 saveBtn">
-       
-          <i class="fas fa-lock-open"></i>
+        <button class="col-sm-1 saveBtn" id="9amButton">
+          <i class="fas fa-lock"></i>
         </button>
       
       </div>
 
-      <div class="ro">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             10AM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="10amTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             11AM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="11amTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             12AM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="12amTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             1PM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description " id="1pmTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             2PM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="2pmTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             3PM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="3pmTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             4PM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="4pmTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
 
-      <div class="row">
+      <div class="row time-block">
 
         <div class="col-sm-1 hour">
             5PM
         </div>
-        <textarea class="col-sm-10">
+        <textarea class="col-sm-10 description" id="5pmTask">
         </textarea>
-        <div class="col-sm-1 saveBtn">
-          <i class="fas fa-lock-open"></i>
-        </div>
+        <button class="col-sm-1 saveBtn">
+          <i class="fas fa-lock"></i>
+        </button>
       
       </div>
-
-      <!-- <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">10 AM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">11 AM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">12 AM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">1 PM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">2 PM</div>
-        <div class="class=col-xs-8" id="taskBox">
-
-        </div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">3 PM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">4 PM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div>
-      <div class="row">
-        <div class="class=col-xs-1"></div>
-        <div class="class=col-xs-1" id="timeBox">5 PM</div>
-        <div class="class=col-xs-8" id="taskBox"></div>
-        <div class="class=col-xs-1" id="lockButton"></div>
-        <div class="class=col-xs-1"></div>
-      </div> -->
     </div>
 
-    <script src="./assets/moment.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/main.js"></script>
