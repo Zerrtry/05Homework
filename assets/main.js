@@ -122,12 +122,13 @@ $(document).ready(function(){
         console.log(userInputId);
         var userInput = $(this).prev().val();
         console.log(userInput);
-        localStorage.setItem(userInputId, userInput)
-        // the part below is in process
         var inputUnit = {
             key: userInputId,
             value: userInput,
         };
+        localStorage.setItem(inputUnit.key, inputUnit.value)
+        // the part below is in process
+
         pushToStorage(inputUnit);
     });
     
