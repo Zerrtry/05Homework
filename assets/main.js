@@ -11,6 +11,20 @@ $("#5pmTask").text(localStorage.getItem("5pmTask"));
 // print current data in the header
 $("#currentDay").html(moment().format('MMMM Do YYYY'));
 
+// functions for switching classes between past present and future
+function changeBGColortoFuture(element){
+    console.log("change to future", element)
+    element.removeClass("past").removeClass("present").addClass("future");
+};
+function changeBGColortoPresent(element){
+    console.log("change to present", element)
+    element.removeClass("future").removeClass("past").addClass("present");
+};
+function changeBGColortoPast(element){
+    console.log("change to past", element)
+    element.removeClass("present").removeClass("future").addClass("past");
+};
+
 $(document).ready(function(){
     
     var task9am = $("#9amTask");
@@ -132,18 +146,6 @@ $(document).ready(function(){
         pushToStorage(inputUnit);
     });
     
-    // functions for switching classes between past present and future
-    function changeBGColortoFuture(element){
-        console.log("change to future", element)
-        element.removeClass("past").removeClass("present").addClass("future");
-    };
-    function changeBGColortoPresent(element){
-        console.log("change to present", element)
-        element.removeClass("future").removeClass("past").addClass("present");
-    };
-    function changeBGColortoPast(element){
-        console.log("change to past", element)
-        element.removeClass("present").removeClass("future").addClass("past");
-    };
+
 
 });
