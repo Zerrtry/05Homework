@@ -11,4 +11,4 @@ Other technology used in the project: jquery, bootstrap.
 
 https://zerrtry.github.io/05Homework/
 
-<img src="images/screenshot.png">
+<img src="assets/images/screenshot.png">
